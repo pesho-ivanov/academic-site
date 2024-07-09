@@ -2,11 +2,11 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Penn State University. <a href="mailto:ivanov@pesho.info">ivanov@pesho.info</a>
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: pesho.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>555 your office number</p>
@@ -17,6 +17,8 @@ news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
+
+Grew up with informatics olympiads, studied applied math, started as a programmer. Introduced practical A\* for optimal sequence alignment for my PhD in computational biology. To reprogram living cells, we need better science and better compbio infrastructure. I enjoy teaching algorithms and develop stuff together.
 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
