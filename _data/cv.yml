@@ -2,96 +2,195 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Petar Ivanov
     - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: 29 May 1989
+    - name: Place of Birth
+      value: Shumen, Bulgaria
+    - name: Email
+      value: ivanov@pesho.info
+    - name: GitHub
+      value: https://github.com/pesho-ivanov/
+    - name: Wiki
+      value: https://pesho-ivanov.github.io/
+    - name: Twitter
+      value: https://twitter.com/peshotrie
+
+- title: Summary
+  type: list
+  contents:
+    - Postdoc in genome sequence analysis at Penn State University.
+    - "PhD from ETH Zurich, thesis: Optimal sequence alignment using A*."
+    - Ex-googler, mentor of olympiad informatics students.
+    - Interested in cooperative social structures.
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Postdoc in Genome Sequence Analysis
+      institution: Pennsylvania State University
+      year: July 2023 - now
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Repository: https://github.com/pesho-ivanov/sweepmap
+        - Prof. Paul Medvedev's Algorithmic Bioinformatics group (https://medvedevgroup.com/)
+    - title: PhD Student
+      institution: ETH Zurich
+      year: Apr 2017 - Apr 2023
       description:
-        - Description 1.
-        - Description 2.
+        - Thesis: Optimal sequence alignment using A*
+        - Repositories: 
+            - https://github.com/eth-sri/astarix
+            - https://github.com/pesho-ivanov/minSH
+            - https://github.com/RagnarGrootKoerkamp/astar-pairwise-aligner
+        - Prof. Martin Vechev's Secure, Reliable, and Intelligent Systems Lab (https://www.sri.inf.ethz.ch/people/pesho)
+    - title: Master Degree in Software Engineering
+      institution: Shumen University, Bulgaria
+      year: Apr 2015 - Feb 2017
+      description:
+        - Thesis: Framework for Genomic Reconstruction Algorithms
+    - title: Bachelor Degree in Informatics
+      institution: Shumen University, Bulgaria
+      year: Jun 2014
+      description:
+        - Interrupted due to Russian visa issues
+    - title: Specialist Degree in Applied Mathematics and Informatics
+      institution: Moscow State University
+      year: Sep 2009 - Jun 2013
+      description: Major in Computer Vision
+    - title: Mathematics and Physics Profile
+      institution: Shumen High School of Sciences, Bulgaria
+      year: Sep 2000 - Jun 2008
+      description: Award for most scientific achievements of his year
 
-- title: Experience
+- title: Internships
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Clonality language for analysis of lymphocyte single-cell RNA data
+      year: Jun 2016 - Mar 2017
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Repository: https://github.com/pesho-ivanov/celldive
+        - Prof. Martin Vechev, Software Reliability Lab, ETH Zurich
+        - MD Emmanuella Guenova, Dermatology Clinic, University of Zurich
+    - title: Summer Internship on SPAdes Open Source Genome Assembler
+      year: Jul 2013 - Aug 2013
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Prof. Pavel Pevzner's Algorithmic Biology Lab, St. Petersburg Academic University
+        - Proof of concept: replication bugs to enhance assembly in open source assembler
+        - Chimeras presentation: http://pesho.info/wp-content/uploads/chimeras-final.pdf
+    - title: Microbiological Models Designer
+      year: Sep 2012 - Jun 2013
       description:
+        - Prof. Konstantin Severinov's lab, Institute of Gene Biology, Russian Academy of Sciences
+        - Microcin modelling: https://docs.google.com/document/d/1tNkXLaWY3ooA4MEnrbrL2_DOpOaiTlLoFblwzKFZdy0/edit?usp=sharing
+    - title: Research Internship on Probabilistic Verification of Biological Models
+      year: Jul 2012 - Aug 2012
+      description:
+        - Prof. Martin Vechev's Software Reliability Lab, ETH Zurich
+        - Virus-bacteria interaction summary: https://docs.google.com/document/d/1tNkXLaWY3ooA4MEnrbrL2_DOpOaiTlLoFblwzKFZdy0/edit?usp=sharing
+    - title: Computational Geometry Algorithms Library (CGAL) Internship
+      year: Jul 2011 - Aug 2011
+      description:
+        - Google Summer of Code
+        - Implemented topological operators on tetrahedral meshes
+    - title: Developer of a Bin-Packing Genetic Algorithm for Glass Cutting Optimization
+      year: Jul 2007 - Sep 2007
+      description:
+        - Telepol Net, Bulgaria
+        - Appreciating evolution and first algorithm in production
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
+- title: Publications
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title: Exact Global Alignment Using A* with Chaining Seed Heuristic and Match Pruning
+      authors: R. Groot Koerkamp and Petar Ivanov (equal contribution)
+      journal: Oxford Bioinformatics
+      year: 2024
+    - title: Fast and Optimal Sequence-to-Graph Alignment Guided by Seeds
+      authors: Petar Ivanov, B. Bichsel, M. Vechev
+      conference: International Conference on Research in Computational Molecular Biology (RECOMB)
+      year: 2022
+    - title: "AStarix: Fast and Optimal Sequence-to-Graph Alignment"
+      authors: Petar Ivanov, B. Bichsel, H. Mustafa, A. Kahles, G. Rätsch, M. Vechev
+      conference: International Conference on Research in Computational Molecular Biology (RECOMB)
+      year: 2020
+    - title: "Debin: Predicting Debug Information in Stripped Binaries"
+      authors: J. He, Petar Ivanov, P. Tsankov, V. Raychev, M. Vechev
+      conference: Proceedings of the ACM SIGSAC Conference on Computer and Communications Security
+      year: 2018
+    - title: Ineffective Antibody-Dependent Cellular Cytotoxicity in Patients with Cutaneous T Cell Lymphoma
+      authors: Y. Chang, M. Ziegler, D. Ignatova, Petar Ivanov, R. Profanter, K. Kerl, R. Dummer, E. Contassot, L. French, A. Cozzio, S. Misailovic, W. Hoetzenecker, M. Vechev, E. Guenova
+      journal: Experimental Dermatology
+      year: 2018
+
+- title: Teaching
+  type: time_table
+  contents:
+    - title: Teaching Assistant for Various Courses
+      year: Sep 2017 - now
+      description:
+        - Courses: Algolab, Data Structures and Algorithms, Parallel Programming, Rigorous Software Engineering, Reliable AI, Theoretical Informatics
+        - Institution: Computer Science Department, ETH Zurich
+    - title: Supervisor of High School Students
+      year: Sep 2015 - Sep 2018
+      description: Science & Arts school "Science Xplore", Viseu, Portugal
+    - title: Informatics Competitions Trainer for High School Students
+      year: Nov 2013 - Jun 2014
+      description: Mathematics and Informatics Private School "A&B", Shumen, Bulgaria
+    - title: Teaching Assistant for Bioinformatics Course on Coursera
+      year: Nov 2013 - Jan 2014
+      description: Prof. Pavel Pevzner, University of California, San Diego
+    - title: Lecturer at School Students Informatics Camp
+      year: Aug 2010
+      description: Russian Summer Informatics Camp, Saratov
+    - title: Teaching Assistant for Design and Analysis of Algorithms Course
+      year: Mar 2008 - Jun 2009
+      description: Faculty of Mathematics and Informatics, Sofia University, Bulgaria
+    - title: Author of Problems in Online Programming Tournament
+      year: Sep 2008 - Jun 2009
+      description: Musala Soft, Bulgaria
+    - title: Author of Problems for Bulgarian Tournaments in Informatics
+      year: 2008 - 2009, 2013 - 2014
+      description: Lecturer at National Informatics Camps, National Committee in Informatics, Bulgarian Ministry of Education
+
+- title: Industry
+  type: time_table
+  contents:
+    - title: Software Engineer
+      institution: Google Zurich
+      year: Sep 2014 - Jan 2016
+      description: Search ⊇ Knowledge ⊇ Infrastructure
+
+- title: Awards
+  type: list
+  contents:
+    - "1st place: Minko Balkanski Competition in Informatics '08"
+    - "11th place: TopCoder High School Finals, West Lafayette, USA '08"
+    - "1st place: Autumn Tournament in Informatics '07"
+    - "1st place: Student Competition for the Dean's Cup of Sofia University '07"
+    - "2nd place: International Young Physicists Tournament (regional, in team) '06"
+    - "1st place: Rumen Grozdanov Informatics and Mathematics Tournament '06"
+    - "1st place: Winter Tournament in Informatics '06"
+    - "Awarded as a National Laureate in Informatics, Bulgaria '08"
+    - "Scholarship for science achievements of American Foundation for Bulgaria '07-'08"
+    - "Participated in the final rounds of the Bulgarian Olympiad in Informatics '05-'08"
+    - "Participated in the final rounds of the TopCoder High School, West Lafayette, USA '07-'08"
+    - "Participated in the final rounds of Musala Soft and PC Magazine competition '07-'08"
+
+- title: General Skills
+  type: list
+  contents:
+    - Algorithms: Graphs, Combinatorics, Strings, Geometry, Optimization, Dynamic Programming
+    - Programming: C/C++ (STL), Python (NumPy, SciPy, MatPlotLib), MATLAB
+    - Tools: Unix, Bash, Vim, Git, LaTeX
+    - Fluent in: English, Russian, Bulgarian
+
+- title: Activities
+  type: list
+  contents:
+    - Solving algorithmic problems (TopCoder, Timus, Rosalind)
+    - Supporting crowdsourcing, FOSS, and open data
+    - Editing Wikipedia
+    - Running (42.195km in 3:43h, Zelenograd, Russia, Dec 2011; 100km in 13:19h, Vitosha mountain, Bulgaria, 2012)
+    - Flying (speedfly, acro-paragliding, cross-country PG, skydive)
+    - Meditation (Goenka's 10-day meditation retreat, 2020)
+
