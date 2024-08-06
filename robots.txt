@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://pesho-ivanov.github.io/academic-site/sitemap.xml
+Sitemap: https://pesho-ivanov.github.io/academic-site//sitemap.xml
