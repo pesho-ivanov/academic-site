@@ -16,6 +16,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-Grew up with informatics olympiads, studied applied math, started as a programmer. Introduced practical A\* for optimal sequence alignment for my PhD in computational biology. To reprogram living cells, we need better science and better compbio infrastructure. I enjoy teaching algorithms and develop stuff together.
+Grew up with informatics olympiads, studied applied math, started as a programmer. Introduced practical A\* for optimal sequence alignment for my PhD in computational biology. To reprogram living cells, we need better science and better compbio infrastructure. I enjoy teaching algorithms and develop stuff together. 
 
 [personal wiki](https://pesho-ivanov.github.io/)
