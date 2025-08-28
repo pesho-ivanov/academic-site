@@ -8,15 +8,15 @@
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: true
+#rss_icon: true
 email: ivanov@pesho.info
 github_username: pesho-ivanov # your GitHub user name
 linkedin_username: pesho-ivanov-96a28b318 # your LinkedIn user name
-orcid_id: 0000-0002-8119-3849 # your ORCID ID
+#orcid_id: 0000-0002-8119-3849 # your ORCID ID
 scholar_userid: ZTJpeHIAAAAJ # your Google Scholar ID
-telegram_username: pesho_ivanov # your Telegram user name
+#telegram_username: pesho_ivanov # your Telegram user name
 work_url: https://medvedevgroup.com/ # work page URL
-x_username: peshotrie # your X handle
+#x_username: peshotrie # your X handle
 
 #acm_id: # your dl.acm.org/profile/id
 #blogger_url: # your blogger URL
